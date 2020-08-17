@@ -1,0 +1,39 @@
+{
+  "name": "react-ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env TS_NODE_PROJECT=\"build/tsconfig-webpack.json\" webpack-dev-server --config build/webpack.local.config.ts",
+    "build": "cross-env TS_NODE_PROJECT=\"build/tsconfig-webpack.json\" webpack --config build/webpack.local.config.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.9.46",
+    "@types/react-dom": "^16.9.8",
+    "@types/webpack-dev-server": "^3.11.0",
+    "@types/webpack-merge": "^4.1.5",
+    "awesome-typescript-loader": "^5.2.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.2",
+    "html-webpack-plugin": "^4.3.0",
+    "ts-loader": "^8.0.2",
+    "ts-node": "^8.10.2",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.1",
+    "webpack-node-externals": "^2.5.1"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.15",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
+  }
+}
